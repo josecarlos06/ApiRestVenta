@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon index.ts",
     "build" : "tsc",
-    "start": "node public/index.js"
+    "start": "node build/index.js"
   },
   "author": "",
   "license": "ISC",
