@@ -4,6 +4,7 @@ const { Pool } = pkg;
 
 export const pool = new Pool({
     allowExitOnIdle: true,
+    ssl : true
 });
 
 const connection = async ()=>{
