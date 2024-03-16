@@ -12,7 +12,7 @@ const app = (0, express_1.default)();
 app.use(express_1.default.json());
 /* CONFIGURATION */
 dotenv_1.default.config();
-const whiteList = ['http://localhost:5173'];
+const whiteList = ['https://genuine-muffin-4edc99.netlify.app'];
 const customCorsOptions = {
     origin: (origin, callback) => {
         if (whiteList.includes(origin)) {
