@@ -12,7 +12,7 @@ app.use(express.json());
 dotenv.config();
 
 
-const whiteList = ['https://genuine-muffin-4edc99.netlify.app']
+const whiteList = ['https://genuine-muffin-4edc99.netlify.app/']
 const customCorsOptions = {
     origin: (origin: any, callback: any) => {
         if (whiteList.includes(origin)) {
